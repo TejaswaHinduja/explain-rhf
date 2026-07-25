@@ -39,5 +39,7 @@ function Native(){
 }
 
 /*questions to answer:
-
+why not do the native way ? no live ui updates / validations
+why not do the useState way ? too many re renders
+how does rhf handle the word count (useWatch )?pulls out the counter function from the component
 */
